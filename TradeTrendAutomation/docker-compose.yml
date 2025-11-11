@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  trade-trends-automation:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: trade-trends-automation
+    # For custom time range, modify command
+    # command: python run_automation.py --time-range "today"
+    # command: python run_automation.py --time-range "2025-01-01 00:00:00,2025-01-01 23:59:59"
+    command: python run_automation.py
+    shm_size: 2gb
+    cap_add:
+      - SYS_ADMIN
+    volumes:
+      # Mount credentials if you want to update them without rebuilding
+      - ./credentials:/app/credentials:ro
+      # Mount screenshots to host (optional)
+      - ./screenshots:/app/screenshots
+    environment:
+      - PYTHONUNBUFFERED=1
+      - DISPLAY=:99
+    restart: "no"
