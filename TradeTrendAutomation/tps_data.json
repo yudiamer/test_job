@@ -1,0 +1,1398 @@
+[
+  {
+    "timestamp": "2025-11-04T01:51:31.008330",
+    "capture_time": "2025-11-04T01:51:31.008330",
+    "tps_calculations": [
+      {
+        "metric": "Create Order",
+        "max": 50718.0,
+        "min": 30450.0,
+        "average": 41332.88,
+        "total": 5001279.0,
+        "count": 121,
+        "tps": 845.3,
+        "raw_data": "Create Order 50718.00 30450.00 41332.88 5001279.00 121"
+      },
+      {
+        "metric": "Payment Apply",
+        "max": 60992.0,
+        "min": 34676.0,
+        "average": 48552.33,
+        "total": 5874832.0,
+        "count": 121,
+        "tps": 1016.5333333333333,
+        "raw_data": "Payment Apply 60992.00 34676.00 48552.33 5874832.00 121"
+      },
+      {
+        "metric": "Cashier Consult",
+        "max": 46713.0,
+        "min": 0.0,
+        "average": 36791.25,
+        "total": 4451741.0,
+        "count": 121,
+        "tps": 778.55,
+        "raw_data": "Cashier Consult 46713.00 0.00 36791.25 4451741.00 121"
+      },
+      {
+        "metric": "Trade Success",
+        "max": 47217.0,
+        "min": 0.0,
+        "average": 36826.74,
+        "total": 4456036.0,
+        "count": 121,
+        "tps": 786.95,
+        "raw_data": "Trade Success 47217.00 0.00 36826.74 4456036.00 121"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-04T04:32:43.336347",
+    "capture_time": "2025-11-04T04:32:43.336347",
+    "tps_calculations": [
+      {
+        "metric": "counts",
+        "max": 260.0,
+        "min": 143.0,
+        "average": 202.75,
+        "total": 60825.0,
+        "count": 300,
+        "tps": 4.333333333333333,
+        "raw_data": "counts 260.00 143.00 202.75 60825.00 300"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-04T04:36:50.197847",
+    "capture_time": "2025-11-04T04:36:50.197847",
+    "tps_calculations": [
+      {
+        "metric": "Create Order",
+        "max": 23744.0,
+        "min": 13227.0,
+        "average": 17303.54,
+        "total": 2093728.0,
+        "count": 121,
+        "tps": 395.73333333333335,
+        "raw_data": "Create Order 23744.00 13227.00 17303.54 2093728.00 121"
+      },
+      {
+        "metric": "Payment Apply",
+        "max": 26873.0,
+        "min": 14666.0,
+        "average": 19411.18,
+        "total": 2348753.0,
+        "count": 121,
+        "tps": 447.8833333333333,
+        "raw_data": "Payment Apply 26873.00 14666.00 19411.18 2348753.00 121"
+      },
+      {
+        "metric": "Cashier Consult",
+        "max": 20902.0,
+        "min": 12037.0,
+        "average": 15454.11,
+        "total": 1869947.0,
+        "count": 121,
+        "tps": 348.3666666666667,
+        "raw_data": "Cashier Consult 20902.00 12037.00 15454.11 1869947.00 121"
+      },
+      {
+        "metric": "Trade Success",
+        "max": 22136.0,
+        "min": 11942.0,
+        "average": 15920.36,
+        "total": 1926363.0,
+        "count": 121,
+        "tps": 368.93333333333334,
+        "raw_data": "Trade Success 22136.00 11942.00 15920.36 1926363.00 121"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-04T04:52:31.787551",
+    "capture_time": "2025-11-04T04:52:31.787551",
+    "tps_calculations": [
+      {
+        "metric": "Create Order",
+        "max": 21670.0,
+        "min": 13014.0,
+        "average": 16073.33,
+        "total": 1944873.0,
+        "count": 121,
+        "tps": 361.1666666666667,
+        "raw_data": "Create Order 21670.00 13014.00 16073.33 1944873.00 121"
+      },
+      {
+        "metric": "Payment Apply",
+        "max": 24498.0,
+        "min": 14656.0,
+        "average": 18010.69,
+        "total": 2179293.0,
+        "count": 121,
+        "tps": 408.3,
+        "raw_data": "Payment Apply 24498.00 14656.00 18010.69 2179293.00 121"
+      },
+      {
+        "metric": "Cashier Consult",
+        "max": 19057.0,
+        "min": 12037.0,
+        "average": 14467.36,
+        "total": 1750551.0,
+        "count": 121,
+        "tps": 317.6166666666667,
+        "raw_data": "Cashier Consult 19057.00 12037.00 14467.36 1750551.00 121"
+      },
+      {
+        "metric": "Trade Success",
+        "max": 20140.0,
+        "min": 11793.0,
+        "average": 14739.65,
+        "total": 1783498.0,
+        "count": 121,
+        "tps": 335.6666666666667,
+        "raw_data": "Trade Success 20140.00 11793.00 14739.65 1783498.00 121"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-04T05:01:02.515626",
+    "capture_time": "2025-11-04T05:01:02.515626",
+    "tps_calculations": [
+      {
+        "metric": "Create Order",
+        "max": 20567.0,
+        "min": 13014.0,
+        "average": 15506.89,
+        "total": 1876334.0,
+        "count": 121,
+        "tps": 342.78333333333336,
+        "raw_data": "Create Order 20567.00 13014.00 15506.89 1876334.00 121"
+      },
+      {
+        "metric": "Payment Apply",
+        "max": 23024.0,
+        "min": 14656.0,
+        "average": 17385.0,
+        "total": 2103585.0,
+        "count": 121,
+        "tps": 383.73333333333335,
+        "raw_data": "Payment Apply 23024.00 14656.00 17385.00 2103585.00 121"
+      },
+      {
+        "metric": "Cashier Consult",
+        "max": 18175.0,
+        "min": 12037.0,
+        "average": 14039.17,
+        "total": 1698739.0,
+        "count": 121,
+        "tps": 302.9166666666667,
+        "raw_data": "Cashier Consult 18175.00 12037.00 14039.17 1698739.00 121"
+      },
+      {
+        "metric": "Trade Success",
+        "max": 19042.0,
+        "min": 11684.0,
+        "average": 14189.83,
+        "total": 1716970.0,
+        "count": 121,
+        "tps": 317.3666666666667,
+        "raw_data": "Trade Success 19042.00 11684.00 14189.83 1716970.00 121"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-04T05:07:26.941884",
+    "capture_time": "2025-11-04T05:07:26.941884",
+    "tps_calculations": [
+      {
+        "metric": "Create Order",
+        "max": 20148.0,
+        "min": 12877.0,
+        "average": 15170.72,
+        "total": 1835657.0,
+        "count": 121,
+        "tps": 335.8,
+        "raw_data": "Create Order 20148.00 12877.00 15170.72 1835657.00 121"
+      },
+      {
+        "metric": "Payment Apply",
+        "max": 22663.0,
+        "min": 14656.0,
+        "average": 17030.21,
+        "total": 2060656.0,
+        "count": 121,
+        "tps": 377.71666666666664,
+        "raw_data": "Payment Apply 22663.00 14656.00 17030.21 2060656.00 121"
+      },
+      {
+        "metric": "Cashier Consult",
+        "max": 18027.0,
+        "min": 12037.0,
+        "average": 13808.71,
+        "total": 1670854.0,
+        "count": 121,
+        "tps": 300.45,
+        "raw_data": "Cashier Consult 18027.00 12037.00 13808.71 1670854.00 121"
+      },
+      {
+        "metric": "Trade Success",
+        "max": 18492.0,
+        "min": 11502.0,
+        "average": 13861.64,
+        "total": 1677258.0,
+        "count": 121,
+        "tps": 308.2,
+        "raw_data": "Trade Success 18492.00 11502.00 13861.64 1677258.00 121"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-04T10:47:11.583279",
+    "capture_time": "2025-11-04T10:47:11.583279",
+    "tps_calculations": [
+      {
+        "metric": "Create Order",
+        "max": 39424.0,
+        "min": 0.0,
+        "average": 36881.54,
+        "total": 2249774.0,
+        "count": 61,
+        "tps": 657.0666666666667,
+        "raw_data": "Create Order 39424.00 0.00 36881.54 2249774.00 61"
+      },
+      {
+        "metric": "Payment Apply",
+        "max": 57839.0,
+        "min": 0.0,
+        "average": 54371.8,
+        "total": 3316680.0,
+        "count": 61,
+        "tps": 963.9833333333333,
+        "raw_data": "Payment Apply 57839.00 0.00 54371.80 3316680.00 61"
+      },
+      {
+        "metric": "Cashier Consult",
+        "max": 45500.0,
+        "min": 0.0,
+        "average": 42817.33,
+        "total": 2611857.0,
+        "count": 61,
+        "tps": 758.3333333333334,
+        "raw_data": "Cashier Consult 45500.00 0.00 42817.33 2611857.00 61"
+      },
+      {
+        "metric": "Trade Success",
+        "max": 35589.0,
+        "min": 0.0,
+        "average": 33333.2,
+        "total": 2033325.0,
+        "count": 61,
+        "tps": 593.15,
+        "raw_data": "Trade Success 35589.00 0.00 33333.20 2033325.00 61"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-04T14:28:55.168554",
+    "capture_time": "2025-11-04T14:28:55.168554",
+    "tps_calculations": [
+      {
+        "metric": "Create Order",
+        "max": 50239.0,
+        "min": 38783.0,
+        "average": 42959.73,
+        "total": 5198127.0,
+        "count": 121,
+        "tps": 837.3166666666667,
+        "raw_data": "Create Order 50239.00 38783.00 42959.73 5198127.00 121"
+      },
+      {
+        "metric": "Payment Apply",
+        "max": 73180.0,
+        "min": 57310.0,
+        "average": 63052.27,
+        "total": 7629325.0,
+        "count": 121,
+        "tps": 1219.6666666666667,
+        "raw_data": "Payment Apply 73180.00 57310.00 63052.27 7629325.00 121"
+      },
+      {
+        "metric": "Cashier Consult",
+        "max": 56601.0,
+        "min": 44393.0,
+        "average": 48863.66,
+        "total": 5912503.0,
+        "count": 121,
+        "tps": 943.35,
+        "raw_data": "Cashier Consult 56601.00 44393.00 48863.66 5912503.00 121"
+      },
+      {
+        "metric": "Trade Success",
+        "max": 45986.0,
+        "min": 35377.0,
+        "average": 39018.67,
+        "total": 4721259.0,
+        "count": 121,
+        "tps": 766.4333333333333,
+        "raw_data": "Trade Success 45986.00 35377.00 39018.67 4721259.00 121"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-04T15:08:31.134806",
+    "capture_time": "2025-11-04T15:08:31.134806",
+    "tps_calculations": [
+      {
+        "metric": "Create Order",
+        "max": 45308.0,
+        "min": 38783.0,
+        "average": 41242.0,
+        "total": 4990282.0,
+        "count": 121,
+        "tps": 755.1333333333333,
+        "raw_data": "Create Order 45308.00 38783.00 41242.00 4990282.00 121"
+      },
+      {
+        "metric": "Payment Apply",
+        "max": 65661.0,
+        "min": 57310.0,
+        "average": 60842.23,
+        "total": 7361910.0,
+        "count": 121,
+        "tps": 1094.35,
+        "raw_data": "Payment Apply 65661.00 57310.00 60842.23 7361910.00 121"
+      },
+      {
+        "metric": "Cashier Consult",
+        "max": 50655.0,
+        "min": 44393.0,
+        "average": 47075.73,
+        "total": 5696163.0,
+        "count": 121,
+        "tps": 844.25,
+        "raw_data": "Cashier Consult 50655.00 44393.00 47075.73 5696163.00 121"
+      },
+      {
+        "metric": "Trade Success",
+        "max": 41409.0,
+        "min": 35377.0,
+        "average": 37470.51,
+        "total": 4533932.0,
+        "count": 121,
+        "tps": 690.15,
+        "raw_data": "Trade Success 41409.00 35377.00 37470.51 4533932.00 121"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-05T15:02:27.858136",
+    "capture_time": "2025-11-05T15:02:27.858136",
+    "tps_calculations": [
+      {
+        "metric": "Create Order",
+        "max": 41736.0,
+        "min": 0.0,
+        "average": 40210.7,
+        "total": 2452853.0,
+        "count": 61,
+        "tps": 695.6,
+        "raw_data": "Create Order 41736.00 0.00 40210.70 2452853.00 61"
+      },
+      {
+        "metric": "Payment Apply",
+        "max": 62217.0,
+        "min": 0.0,
+        "average": 59660.26,
+        "total": 3639276.0,
+        "count": 61,
+        "tps": 1036.95,
+        "raw_data": "Payment Apply 62217.00 0.00 59660.26 3639276.00 61"
+      },
+      {
+        "metric": "Cashier Consult",
+        "max": 48145.0,
+        "min": 0.0,
+        "average": 46369.08,
+        "total": 2828514.0,
+        "count": 61,
+        "tps": 802.4166666666666,
+        "raw_data": "Cashier Consult 48145.00 0.00 46369.08 2828514.00 61"
+      },
+      {
+        "metric": "Trade Success",
+        "max": 38151.0,
+        "min": 0.0,
+        "average": 36577.89,
+        "total": 2231251.0,
+        "count": 61,
+        "tps": 635.85,
+        "raw_data": "Trade Success 38151.00 0.00 36577.89 2231251.00 61"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-05T15:07:32.394378",
+    "capture_time": "2025-11-05T15:07:32.394378",
+    "tps_calculations": [
+      {
+        "metric": "Create Order",
+        "max": 45970.0,
+        "min": 39389.0,
+        "average": 41096.3,
+        "total": 4972652.0,
+        "count": 121,
+        "tps": 766.1666666666666,
+        "raw_data": "Create Order 45970.00 39389.00 41096.30 4972652.00 121"
+      },
+      {
+        "metric": "Payment Apply",
+        "max": 66250.0,
+        "min": 58326.0,
+        "average": 60876.75,
+        "total": 7366087.0,
+        "count": 121,
+        "tps": 1104.1666666666667,
+        "raw_data": "Payment Apply 66250.00 58326.00 60876.75 7366087.00 121"
+      },
+      {
+        "metric": "Cashier Consult",
+        "max": 51812.0,
+        "min": 45442.0,
+        "average": 47424.44,
+        "total": 5738357.0,
+        "count": 121,
+        "tps": 863.5333333333333,
+        "raw_data": "Cashier Consult 51812.00 45442.00 47424.44 5738357.00 121"
+      },
+      {
+        "metric": "Trade Success",
+        "max": 41576.0,
+        "min": 35677.0,
+        "average": 37356.17,
+        "total": 4520096.0,
+        "count": 121,
+        "tps": 692.9333333333333,
+        "raw_data": "Trade Success 41576.00 35677.00 37356.17 4520096.00 121"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-05T15:11:49.982265",
+    "capture_time": "2025-11-05T15:11:49.982265",
+    "tps_calculations": [
+      {
+        "metric": "Create Order",
+        "max": 42062.0,
+        "min": 0.0,
+        "average": 40328.89,
+        "total": 2460062.0,
+        "count": 61,
+        "tps": 701.0333333333333,
+        "raw_data": "Create Order 42062.00 0.00 40328.89 2460062.00 61"
+      },
+      {
+        "metric": "Payment Apply",
+        "max": 62263.0,
+        "min": 0.0,
+        "average": 59944.44,
+        "total": 3656611.0,
+        "count": 61,
+        "tps": 1037.7166666666667,
+        "raw_data": "Payment Apply 62263.00 0.00 59944.44 3656611.00 61"
+      },
+      {
+        "metric": "Cashier Consult",
+        "max": 48629.0,
+        "min": 0.0,
+        "average": 46540.0,
+        "total": 2838940.0,
+        "count": 61,
+        "tps": 810.4833333333333,
+        "raw_data": "Cashier Consult 48629.00 0.00 46540.00 2838940.00 61"
+      },
+      {
+        "metric": "Trade Success",
+        "max": 38151.0,
+        "min": 0.0,
+        "average": 36689.52,
+        "total": 2238061.0,
+        "count": 61,
+        "tps": 635.85,
+        "raw_data": "Trade Success 38151.00 0.00 36689.52 2238061.00 61"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-05T15:14:10.773682",
+    "capture_time": "2025-11-05T15:14:10.773682",
+    "tps_calculations": [
+      {
+        "metric": "Create Order",
+        "max": 45970.0,
+        "min": 39389.0,
+        "average": 41063.7,
+        "total": 4968708.0,
+        "count": 121,
+        "tps": 766.1666666666666,
+        "raw_data": "Create Order 45970.00 39389.00 41063.70 4968708.00 121"
+      },
+      {
+        "metric": "Payment Apply",
+        "max": 66250.0,
+        "min": 58326.0,
+        "average": 60794.23,
+        "total": 7356102.0,
+        "count": 121,
+        "tps": 1104.1666666666667,
+        "raw_data": "Payment Apply 66250.00 58326.00 60794.23 7356102.00 121"
+      },
+      {
+        "metric": "Cashier Consult",
+        "max": 51812.0,
+        "min": 45442.0,
+        "average": 47353.46,
+        "total": 5729769.0,
+        "count": 121,
+        "tps": 863.5333333333333,
+        "raw_data": "Cashier Consult 51812.00 45442.00 47353.46 5729769.00 121"
+      },
+      {
+        "metric": "Trade Success",
+        "max": 41576.0,
+        "min": 35677.0,
+        "average": 37335.4,
+        "total": 4517584.0,
+        "count": 121,
+        "tps": 692.9333333333333,
+        "raw_data": "Trade Success 41576.00 35677.00 37335.40 4517584.00 121"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-05T15:22:49.963065",
+    "capture_time": "2025-11-05T15:22:49.963065",
+    "tps_calculations": [
+      {
+        "metric": "Create Order",
+        "max": 42437.0,
+        "min": 39389.0,
+        "average": 40941.6,
+        "total": 4953934.0,
+        "count": 121,
+        "tps": 707.2833333333333,
+        "raw_data": "Create Order 42437.00 39389.00 40941.60 4953934.00 121"
+      },
+      {
+        "metric": "Payment Apply",
+        "max": 62825.0,
+        "min": 58326.0,
+        "average": 60646.42,
+        "total": 7338217.0,
+        "count": 121,
+        "tps": 1047.0833333333333,
+        "raw_data": "Payment Apply 62825.00 58326.00 60646.42 7338217.00 121"
+      },
+      {
+        "metric": "Cashier Consult",
+        "max": 49050.0,
+        "min": 45442.0,
+        "average": 47225.22,
+        "total": 5714252.0,
+        "count": 121,
+        "tps": 817.5,
+        "raw_data": "Cashier Consult 49050.00 45442.00 47225.22 5714252.00 121"
+      },
+      {
+        "metric": "Trade Success",
+        "max": 38514.0,
+        "min": 35677.0,
+        "average": 37224.74,
+        "total": 4504194.0,
+        "count": 121,
+        "tps": 641.9,
+        "raw_data": "Trade Success 38514.00 35677.00 37224.74 4504194.00 121"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-05T15:27:24.890795",
+    "capture_time": "2025-11-05T15:27:24.890795",
+    "tps_calculations": [
+      {
+        "metric": "Create Order",
+        "max": 42414.0,
+        "min": 39389.0,
+        "average": 40930.15,
+        "total": 4952548.0,
+        "count": 121,
+        "tps": 706.9,
+        "raw_data": "Create Order 42414.00 39389.00 40930.15 4952548.00 121"
+      },
+      {
+        "metric": "Payment Apply",
+        "max": 62762.0,
+        "min": 58326.0,
+        "average": 60651.49,
+        "total": 7338830.0,
+        "count": 121,
+        "tps": 1046.0333333333333,
+        "raw_data": "Payment Apply 62762.00 58326.00 60651.49 7338830.00 121"
+      },
+      {
+        "metric": "Cashier Consult",
+        "max": 48880.0,
+        "min": 45442.0,
+        "average": 47222.39,
+        "total": 5713909.0,
+        "count": 121,
+        "tps": 814.6666666666666,
+        "raw_data": "Cashier Consult 48880.00 45442.00 47222.39 5713909.00 121"
+      },
+      {
+        "metric": "Trade Success",
+        "max": 38548.0,
+        "min": 35677.0,
+        "average": 37216.1,
+        "total": 4503148.0,
+        "count": 121,
+        "tps": 642.4666666666667,
+        "raw_data": "Trade Success 38548.00 35677.00 37216.10 4503148.00 121"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-07T22:12:03.863634",
+    "capture_time": "2025-11-07T22:12:03.863634",
+    "tps_calculations": [
+      {
+        "metric": "Create Order",
+        "max": 73253.0,
+        "min": 67017.0,
+        "average": 70754.93,
+        "total": 8561347.0,
+        "count": 121,
+        "tps": 1220.8833333333334,
+        "raw_data": "Create Order 73253.00 67017.00 70754.93 8561347.00 121"
+      },
+      {
+        "metric": "Payment Apply",
+        "max": 102616.0,
+        "min": 88127.0,
+        "average": 97396.74,
+        "total": 11785005.0,
+        "count": 121,
+        "tps": 1710.2666666666667,
+        "raw_data": "Payment Apply 102616.00 88127.00 97396.74 11785005.00 121"
+      },
+      {
+        "metric": "Cashier Consult",
+        "max": 80339.0,
+        "min": 69239.0,
+        "average": 76373.36,
+        "total": 9241177.0,
+        "count": 121,
+        "tps": 1338.9833333333333,
+        "raw_data": "Cashier Consult 80339.00 69239.00 76373.36 9241177.00 121"
+      },
+      {
+        "metric": "Trade Success",
+        "max": 67060.0,
+        "min": 61610.0,
+        "average": 64973.09,
+        "total": 7861744.0,
+        "count": 121,
+        "tps": 1117.6666666666667,
+        "raw_data": "Trade Success 67060.00 61610.00 64973.09 7861744.00 121"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-07T22:16:38.787509",
+    "capture_time": "2025-11-07T22:16:38.787509",
+    "tps_calculations": [
+      {
+        "metric": "Create Order",
+        "max": 72924.0,
+        "min": 67677.0,
+        "average": 70812.97,
+        "total": 4319591.0,
+        "count": 61,
+        "tps": 1215.4,
+        "raw_data": "Create Order 72924.00 67677.00 70812.97 4319591.00 61"
+      },
+      {
+        "metric": "Payment Apply",
+        "max": 100126.0,
+        "min": 89516.0,
+        "average": 95073.23,
+        "total": 5799467.0,
+        "count": 61,
+        "tps": 1668.7666666666667,
+        "raw_data": "Payment Apply 100126.00 89516.00 95073.23 5799467.00 61"
+      },
+      {
+        "metric": "Cashier Consult",
+        "max": 77652.0,
+        "min": 69559.0,
+        "average": 73505.92,
+        "total": 4483861.0,
+        "count": 61,
+        "tps": 1294.2,
+        "raw_data": "Cashier Consult 77652.00 69559.00 73505.92 4483861.00 61"
+      },
+      {
+        "metric": "Trade Success",
+        "max": 67180.0,
+        "min": 62342.0,
+        "average": 65293.49,
+        "total": 3982903.0,
+        "count": 61,
+        "tps": 1119.6666666666667,
+        "raw_data": "Trade Success 67180.00 62342.00 65293.49 3982903.00 61"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-07T22:22:04.210872",
+    "capture_time": "2025-11-07T22:22:04.210872",
+    "tps_calculations": [
+      {
+        "metric": "Create Order",
+        "max": 72924.0,
+        "min": 67677.0,
+        "average": 70504.67,
+        "total": 4300785.0,
+        "count": 61,
+        "tps": 1215.4,
+        "raw_data": "Create Order 72924.00 67677.00 70504.67 4300785.00 61"
+      },
+      {
+        "metric": "Payment Apply",
+        "max": 99471.0,
+        "min": 88817.0,
+        "average": 94128.33,
+        "total": 5741828.0,
+        "count": 61,
+        "tps": 1657.85,
+        "raw_data": "Payment Apply 99471.00 88817.00 94128.33 5741828.00 61"
+      },
+      {
+        "metric": "Cashier Consult",
+        "max": 76913.0,
+        "min": 68664.0,
+        "average": 72762.97,
+        "total": 4438541.0,
+        "count": 61,
+        "tps": 1281.8833333333334,
+        "raw_data": "Cashier Consult 76913.00 68664.00 72762.97 4438541.00 61"
+      },
+      {
+        "metric": "Trade Success",
+        "max": 67180.0,
+        "min": 62342.0,
+        "average": 65055.08,
+        "total": 3968360.0,
+        "count": 61,
+        "tps": 1119.6666666666667,
+        "raw_data": "Trade Success 67180.00 62342.00 65055.08 3968360.00 61"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-07T22:45:29.805473",
+    "capture_time": "2025-11-07T22:45:29.805473",
+    "tps_calculations": [
+      {
+        "metric": "Create Order",
+        "max": 74410.0,
+        "min": 11022.0,
+        "average": 41312.45,
+        "total": 59489921.0,
+        "count": 1440,
+        "tps": 1240.1666666666667,
+        "raw_data": "Create Order 74410.00 11022.00 41312.45 59489921.00 1440"
+      },
+      {
+        "metric": "Payment Apply",
+        "max": 104251.0,
+        "min": 14504.0,
+        "average": 57756.87,
+        "total": 83169896.0,
+        "count": 1440,
+        "tps": 1737.5166666666667,
+        "raw_data": "Payment Apply 104251.00 14504.00 57756.87 83169896.00 1440"
+      },
+      {
+        "metric": "Cashier Consult",
+        "max": 80711.0,
+        "min": 12087.0,
+        "average": 45367.13,
+        "total": 65328674.0,
+        "count": 1440,
+        "tps": 1345.1833333333334,
+        "raw_data": "Cashier Consult 80711.00 12087.00 45367.13 65328674.00 1440"
+      },
+      {
+        "metric": "Trade Success",
+        "max": 68334.0,
+        "min": 9677.0,
+        "average": 37604.0,
+        "total": 54149753.0,
+        "count": 1440,
+        "tps": 1138.9,
+        "raw_data": "Trade Success 68334.00 9677.00 37604.00 54149753.00 1440"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-09T00:16:44.190216",
+    "capture_time": "2025-11-09T00:16:44.190216",
+    "tps_calculations": [
+      {
+        "metric": "Create Order",
+        "max": 74410.0,
+        "min": 11022.0,
+        "average": 41312.45,
+        "total": 59489921.0,
+        "count": 1440,
+        "tps": 1240.1666666666667,
+        "raw_data": "Create Order 74410.00 11022.00 41312.45 59489921.00 1440"
+      },
+      {
+        "metric": "Payment Apply",
+        "max": 104251.0,
+        "min": 14504.0,
+        "average": 57756.87,
+        "total": 83169896.0,
+        "count": 1440,
+        "tps": 1737.5166666666667,
+        "raw_data": "Payment Apply 104251.00 14504.00 57756.87 83169896.00 1440"
+      },
+      {
+        "metric": "Cashier Consult",
+        "max": 80711.0,
+        "min": 12087.0,
+        "average": 45367.13,
+        "total": 65328674.0,
+        "count": 1440,
+        "tps": 1345.1833333333334,
+        "raw_data": "Cashier Consult 80711.00 12087.00 45367.13 65328674.00 1440"
+      },
+      {
+        "metric": "Trade Success",
+        "max": 68334.0,
+        "min": 9677.0,
+        "average": 37604.0,
+        "total": 54149753.0,
+        "count": 1440,
+        "tps": 1138.9,
+        "raw_data": "Trade Success 68334.00 9677.00 37604.00 54149753.00 1440"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-09T00:19:45.117084",
+    "capture_time": "2025-11-09T00:19:45.117084",
+    "tps_calculations": [
+      {
+        "metric": "Create Order",
+        "max": 74410.0,
+        "min": 11022.0,
+        "average": 41192.52,
+        "total": 118634469.0,
+        "count": 2880,
+        "tps": 1240.1666666666667,
+        "raw_data": "Create Order 74410.00 11022.00 41192.52 118634469.00 2880"
+      },
+      {
+        "metric": "Payment Apply",
+        "max": 104251.0,
+        "min": 14504.0,
+        "average": 57383.49,
+        "total": 165264455.0,
+        "count": 2880,
+        "tps": 1737.5166666666667,
+        "raw_data": "Payment Apply 104251.00 14504.00 57383.49 165264455.00 2880"
+      },
+      {
+        "metric": "Cashier Consult",
+        "max": 80711.0,
+        "min": 12087.0,
+        "average": 45221.42,
+        "total": 130237701.0,
+        "count": 2880,
+        "tps": 1345.1833333333334,
+        "raw_data": "Cashier Consult 80711.00 12087.00 45221.42 130237701.00 2880"
+      },
+      {
+        "metric": "Trade Success",
+        "max": 68334.0,
+        "min": 9677.0,
+        "average": 37487.24,
+        "total": 107963253.0,
+        "count": 2880,
+        "tps": 1138.9,
+        "raw_data": "Trade Success 68334.00 9677.00 37487.24 107963253.00 2880"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-09T00:29:44.029705",
+    "capture_time": "2025-11-09T00:29:44.029705",
+    "tps_calculations": [
+      {
+        "metric": "Create Order",
+        "max": 74410.0,
+        "min": 11022.0,
+        "average": 41192.52,
+        "total": 118634469.0,
+        "count": 2880,
+        "tps": 1240.1666666666667,
+        "raw_data": "Create Order 74410.00 11022.00 41192.52 118634469.00 2880"
+      },
+      {
+        "metric": "Payment Apply",
+        "max": 104251.0,
+        "min": 14504.0,
+        "average": 57383.49,
+        "total": 165264455.0,
+        "count": 2880,
+        "tps": 1737.5166666666667,
+        "raw_data": "Payment Apply 104251.00 14504.00 57383.49 165264455.00 2880"
+      },
+      {
+        "metric": "Cashier Consult",
+        "max": 80711.0,
+        "min": 12087.0,
+        "average": 45221.42,
+        "total": 130237701.0,
+        "count": 2880,
+        "tps": 1345.1833333333334,
+        "raw_data": "Cashier Consult 80711.00 12087.00 45221.42 130237701.00 2880"
+      },
+      {
+        "metric": "Trade Success",
+        "max": 68334.0,
+        "min": 9677.0,
+        "average": 37487.24,
+        "total": 107963253.0,
+        "count": 2880,
+        "tps": 1138.9,
+        "raw_data": "Trade Success 68334.00 9677.00 37487.24 107963253.00 2880"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-09T00:31:58.464366",
+    "capture_time": "2025-11-09T00:31:58.464366",
+    "tps_calculations": [
+      {
+        "metric": "Create Order",
+        "max": 74344.0,
+        "min": 52367.0,
+        "average": 62853.69,
+        "total": 7605297.0,
+        "count": 121,
+        "tps": 1239.0666666666666,
+        "raw_data": "Create Order 74344.00 52367.00 62853.69 7605297.00 121"
+      },
+      {
+        "metric": "Payment Apply",
+        "max": 95226.0,
+        "min": 65527.0,
+        "average": 79334.07,
+        "total": 9599422.0,
+        "count": 121,
+        "tps": 1587.1,
+        "raw_data": "Payment Apply 95226.00 65527.00 79334.07 9599422.00 121"
+      },
+      {
+        "metric": "Cashier Consult",
+        "max": 74925.0,
+        "min": 51198.0,
+        "average": 61976.29,
+        "total": 7499131.0,
+        "count": 121,
+        "tps": 1248.75,
+        "raw_data": "Cashier Consult 74925.00 51198.00 61976.29 7499131.00 121"
+      },
+      {
+        "metric": "Trade Success",
+        "max": 68597.0,
+        "min": 0.0,
+        "average": 57723.86,
+        "total": 6984587.0,
+        "count": 121,
+        "tps": 1143.2833333333333,
+        "raw_data": "Trade Success 68597.00 0.00 57723.86 6984587.00 121"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-09T02:34:51.821060",
+    "capture_time": "2025-11-09T02:34:51.821060",
+    "tps_calculations": [
+      {
+        "metric": "Create Order",
+        "max": 74410.0,
+        "min": 11022.0,
+        "average": 41192.52,
+        "total": 118634469.0,
+        "count": 2880,
+        "tps": 1240.1666666666667,
+        "raw_data": "Create Order 74410.00 11022.00 41192.52 118634469.00 2880"
+      },
+      {
+        "metric": "Payment Apply",
+        "max": 104251.0,
+        "min": 14504.0,
+        "average": 57383.49,
+        "total": 165264455.0,
+        "count": 2880,
+        "tps": 1737.5166666666667,
+        "raw_data": "Payment Apply 104251.00 14504.00 57383.49 165264455.00 2880"
+      },
+      {
+        "metric": "Cashier Consult",
+        "max": 80711.0,
+        "min": 12087.0,
+        "average": 45221.42,
+        "total": 130237701.0,
+        "count": 2880,
+        "tps": 1345.1833333333334,
+        "raw_data": "Cashier Consult 80711.00 12087.00 45221.42 130237701.00 2880"
+      },
+      {
+        "metric": "Trade Success",
+        "max": 68334.0,
+        "min": 9677.0,
+        "average": 37487.24,
+        "total": 107963253.0,
+        "count": 2880,
+        "tps": 1138.9,
+        "raw_data": "Trade Success 68334.00 9677.00 37487.24 107963253.00 2880"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-09T02:47:42.969924",
+    "capture_time": "2025-11-09T02:47:42.969924",
+    "tps_calculations": [
+      {
+        "metric": "Create Order",
+        "max": 74410.0,
+        "min": 11022.0,
+        "average": 41192.52,
+        "total": 118634469.0,
+        "count": 2880,
+        "tps": 1240.1666666666667,
+        "raw_data": "Create Order 74410.00 11022.00 41192.52 118634469.00 2880"
+      },
+      {
+        "metric": "Payment Apply",
+        "max": 104251.0,
+        "min": 14504.0,
+        "average": 57383.49,
+        "total": 165264455.0,
+        "count": 2880,
+        "tps": 1737.5166666666667,
+        "raw_data": "Payment Apply 104251.00 14504.00 57383.49 165264455.00 2880"
+      },
+      {
+        "metric": "Cashier Consult",
+        "max": 80711.0,
+        "min": 12087.0,
+        "average": 45221.42,
+        "total": 130237701.0,
+        "count": 2880,
+        "tps": 1345.1833333333334,
+        "raw_data": "Cashier Consult 80711.00 12087.00 45221.42 130237701.00 2880"
+      },
+      {
+        "metric": "Trade Success",
+        "max": 68334.0,
+        "min": 9677.0,
+        "average": 37487.24,
+        "total": 107963253.0,
+        "count": 2880,
+        "tps": 1138.9,
+        "raw_data": "Trade Success 68334.00 9677.00 37487.24 107963253.00 2880"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-09T02:48:44.436062",
+    "capture_time": "2025-11-09T02:48:44.436062",
+    "tps_calculations": [
+      {
+        "metric": "Create Order",
+        "max": 68074.0,
+        "min": 0.0,
+        "average": 7785.5,
+        "total": 11211126.0,
+        "count": 1440,
+        "tps": 1134.5666666666666,
+        "raw_data": "Create Order 68074.00 0.00 7785.50 11211126.00 1440"
+      },
+      {
+        "metric": "Payment Apply",
+        "max": 84235.0,
+        "min": 0.0,
+        "average": 9457.34,
+        "total": 13618575.0,
+        "count": 1440,
+        "tps": 1403.9166666666667,
+        "raw_data": "Payment Apply 84235.00 0.00 9457.34 13618575.00 1440"
+      },
+      {
+        "metric": "Cashier Consult",
+        "max": 65647.0,
+        "min": 0.0,
+        "average": 7458.85,
+        "total": 10740742.0,
+        "count": 1440,
+        "tps": 1094.1166666666666,
+        "raw_data": "Cashier Consult 65647.00 0.00 7458.85 10740742.00 1440"
+      },
+      {
+        "metric": "Trade Success",
+        "max": 63011.0,
+        "min": 0.0,
+        "average": 7188.59,
+        "total": 10351566.0,
+        "count": 1440,
+        "tps": 1050.1833333333334,
+        "raw_data": "Trade Success 63011.00 0.00 7188.59 10351566.00 1440"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-09T02:48:58.786811",
+    "capture_time": "2025-11-09T02:48:58.786811",
+    "tps_calculations": [
+      {
+        "metric": "Create Order",
+        "max": 51412.0,
+        "min": 29084.0,
+        "average": 40213.37,
+        "total": 4865818.0,
+        "count": 121,
+        "tps": 856.8666666666667,
+        "raw_data": "Create Order 51412.00 29084.00 40213.37 4865818.00 121"
+      },
+      {
+        "metric": "Payment Apply",
+        "max": 62622.0,
+        "min": 33480.0,
+        "average": 46959.12,
+        "total": 5682054.0,
+        "count": 121,
+        "tps": 1043.7,
+        "raw_data": "Payment Apply 62622.00 33480.00 46959.12 5682054.00 121"
+      },
+      {
+        "metric": "Cashier Consult",
+        "max": 49550.0,
+        "min": 26671.0,
+        "average": 37491.89,
+        "total": 4536519.0,
+        "count": 121,
+        "tps": 825.8333333333334,
+        "raw_data": "Cashier Consult 49550.00 26671.00 37491.89 4536519.00 121"
+      },
+      {
+        "metric": "Trade Success",
+        "max": 47673.0,
+        "min": 26779.0,
+        "average": 37073.23,
+        "total": 4485861.0,
+        "count": 121,
+        "tps": 794.55,
+        "raw_data": "Trade Success 47673.00 26779.00 37073.23 4485861.00 121"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-09T02:50:53.598890",
+    "capture_time": "2025-11-09T02:50:53.598890",
+    "tps_calculations": [
+      {
+        "metric": "Create Order",
+        "max": 50790.0,
+        "min": 28841.0,
+        "average": 39845.96,
+        "total": 4821361.0,
+        "count": 121,
+        "tps": 846.5,
+        "raw_data": "Create Order 50790.00 28841.00 39845.96 4821361.00 121"
+      },
+      {
+        "metric": "Payment Apply",
+        "max": 61345.0,
+        "min": 32908.0,
+        "average": 46477.63,
+        "total": 5623793.0,
+        "count": 121,
+        "tps": 1022.4166666666666,
+        "raw_data": "Payment Apply 61345.00 32908.00 46477.63 5623793.00 121"
+      },
+      {
+        "metric": "Cashier Consult",
+        "max": 48956.0,
+        "min": 26415.0,
+        "average": 37112.21,
+        "total": 4490577.0,
+        "count": 121,
+        "tps": 815.9333333333333,
+        "raw_data": "Cashier Consult 48956.00 26415.00 37112.21 4490577.00 121"
+      },
+      {
+        "metric": "Trade Success",
+        "max": 46720.0,
+        "min": 26467.0,
+        "average": 36733.54,
+        "total": 4444758.0,
+        "count": 121,
+        "tps": 778.6666666666666,
+        "raw_data": "Trade Success 46720.00 26467.00 36733.54 4444758.00 121"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-09T02:51:05.017753",
+    "capture_time": "2025-11-09T02:51:05.017753",
+    "tps_calculations": [
+      {
+        "metric": "Create Order",
+        "max": 68074.0,
+        "min": 0.0,
+        "average": 7825.74,
+        "total": 11269060.0,
+        "count": 1440,
+        "tps": 1134.5666666666666,
+        "raw_data": "Create Order 68074.00 0.00 7825.74 11269060.00 1440"
+      },
+      {
+        "metric": "Payment Apply",
+        "max": 84235.0,
+        "min": 0.0,
+        "average": 9503.3,
+        "total": 13684750.0,
+        "count": 1440,
+        "tps": 1403.9166666666667,
+        "raw_data": "Payment Apply 84235.00 0.00 9503.30 13684750.00 1440"
+      },
+      {
+        "metric": "Cashier Consult",
+        "max": 65647.0,
+        "min": 0.0,
+        "average": 7495.66,
+        "total": 10793752.0,
+        "count": 1440,
+        "tps": 1094.1166666666666,
+        "raw_data": "Cashier Consult 65647.00 0.00 7495.66 10793752.00 1440"
+      },
+      {
+        "metric": "Trade Success",
+        "max": 63011.0,
+        "min": 0.0,
+        "average": 7225.71,
+        "total": 10405028.0,
+        "count": 1440,
+        "tps": 1050.1833333333334,
+        "raw_data": "Trade Success 63011.00 0.00 7225.71 10405028.00 1440"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-09T02:51:12.334934",
+    "capture_time": "2025-11-09T02:51:12.334934",
+    "tps_calculations": [
+      {
+        "metric": "Create Order",
+        "max": 68074.0,
+        "min": 0.0,
+        "average": 7845.71,
+        "total": 11297827.0,
+        "count": 1440,
+        "tps": 1134.5666666666666,
+        "raw_data": "Create Order 68074.00 0.00 7845.71 11297827.00 1440"
+      },
+      {
+        "metric": "Payment Apply",
+        "max": 84235.0,
+        "min": 0.0,
+        "average": 9503.3,
+        "total": 13684750.0,
+        "count": 1440,
+        "tps": 1403.9166666666667,
+        "raw_data": "Payment Apply 84235.00 0.00 9503.30 13684750.00 1440"
+      },
+      {
+        "metric": "Cashier Consult",
+        "max": 65647.0,
+        "min": 0.0,
+        "average": 7495.66,
+        "total": 10793752.0,
+        "count": 1440,
+        "tps": 1094.1166666666666,
+        "raw_data": "Cashier Consult 65647.00 0.00 7495.66 10793752.00 1440"
+      },
+      {
+        "metric": "Trade Success",
+        "max": 63011.0,
+        "min": 0.0,
+        "average": 7225.71,
+        "total": 10405028.0,
+        "count": 1440,
+        "tps": 1050.1833333333334,
+        "raw_data": "Trade Success 63011.00 0.00 7225.71 10405028.00 1440"
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-11-09T16:04:28.559184",
+    "capture_time": "2025-11-09T16:04:28.559184",
+    "tps_calculations": [
+      {
+        "metric": "Create Order",
+        "max": 43250.0,
+        "min": 14881.0,
+        "average": 28640.39,
+        "total": 10339180.0,
+        "count": 361,
+        "tps": 720.8333333333334,
+        "raw_data": "Create Order 43250.00 14881.00 28640.39 10339180.00 361"
+      },
+      {
+        "metric": "Payment Apply",
+        "max": 60503.0,
+        "min": 17454.0,
+        "average": 38823.85,
+        "total": 14015409.0,
+        "count": 361,
+        "tps": 1008.3833333333333,
+        "raw_data": "Payment Apply 60503.00 17454.00 38823.85 14015409.00 361"
+      },
+      {
+        "metric": "Cashier Consult",
+        "max": 50048.0,
+        "min": 15089.0,
+        "average": 32758.7,
+        "total": 11825889.0,
+        "count": 361,
+        "tps": 834.1333333333333,
+        "raw_data": "Cashier Consult 50048.00 15089.00 32758.70 11825889.00 361"
+      },
+      {
+        "metric": "Trade Success",
+        "max": 38798.0,
+        "min": 13338.0,
+        "average": 25611.61,
+        "total": 9245790.0,
+        "count": 361,
+        "tps": 646.6333333333333,
+        "raw_data": "Trade Success 38798.00 13338.00 25611.61 9245790.00 361"
+      }
+    ]
+  }
+]
