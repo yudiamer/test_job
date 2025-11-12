@@ -1,60 +1,59 @@
-# Use Python 3.11 slim image based on Debian 13 (Trixie)
-FROM python:3.11-slim-bookworm
-
+FROM debian:bullseye-slim
 # Set working directory
 WORKDIR /app
 
-# Install system dependencies for Chrome and Selenium
+# Install system dependencies
 RUN apt-get update && apt-get install -y \
+    python3 \
+    python3-pip \
     wget \
     gnupg \
     unzip \
     curl \
-    ca-certificates \
-    # Chrome dependencies
+    xvfb \
     fonts-liberation \
-    libasound2t64 \
-    libatk-bridge2.0-0t64 \
-    libatk1.0-0t64 \
-    libatspi2.0-0t64 \
-    libcups2t64 \
-    libdbus-1-3 \
-    libdrm2 \
-    libgbm1 \
-    libgtk-3-0t64 \
-    libnspr4 \
     libnss3 \
-    libwayland-client0 \
+    libgconf-2-4 \
+    libxi6 \
     libxcomposite1 \
+    libxcursor1 \
     libxdamage1 \
-    libxfixes3 \
-    libxkbcommon0 \
     libxrandr2 \
-    xdg-utils \
+    libxss1 \
+    libxtst6 \
+    libappindicator3-1 \
+    libasound2 \
+    libatk-bridge2.0-0 \
+    libgtk-3-0 \
     && rm -rf /var/lib/apt/lists/*
 
-# Install Google Chrome (using newer method for Debian 13)
-RUN wget -q -O /tmp/google-chrome.deb https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb \
+# Install Chrome
+RUN wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add - \
+    && echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list \
     && apt-get update \
-    && apt-get install -y /tmp/google-chrome.deb \
-    && rm /tmp/google-chrome.deb \
+    && apt-get install -y google-chrome-stable \
     && rm -rf /var/lib/apt/lists/*
+
+# Install ChromeDrive
+RUN wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb && \
+    dpkg -i google-chrome-stable_current_amd64.deb || apt-get install -y -f && \
+    rm google-chrome-stable_current_amd64.deb
 
 # Copy requirements file
-COPY config/requirements.txt /app/config/requirements.txt
+COPY config/requirements.txt .
 
 # Install Python dependencies
-RUN pip install --no-cache-dir -r config/requirements.txt
+RUN pip3 install --no-cache-dir -r requirements.txt
 
 # Copy project files
-COPY . /app/
+COPY . .
 
 # Create screenshots directory
-RUN mkdir -p /app/screenshots
+RUN mkdir -p screenshots
 
-# Set environment variables
-ENV PYTHONUNBUFFERED=1
+# Set display for headless Chrome
 ENV DISPLAY=:99
+ENV PYTHONUNBUFFERED=1
 
-# Run the automation script
-CMD ["python", "run_automation.py"]
+# Run the automation
+CMD ["python3", "run_automation.py"]
