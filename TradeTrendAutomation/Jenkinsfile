@@ -1,9 +1,31 @@
-stage('Build Docker Image') {
-    steps {
-        echo 'Building Docker image...'
-        sh 'docker --version'
-        sh 'ls -l'
-        sh 'cat Dockerfile || echo "No Dockerfile found"'
-        sh 'docker build -t trade-trends-automation:${BUILD_NUMBER} .'
+pipeline {
+    agent any
+
+    stages {
+        stage('Build Docker Image') {
+            steps {
+                echo 'Building Docker image...'
+                sh 'docker --version'
+                sh 'ls -l'
+                sh 'cat Dockerfile || echo "No Dockerfile found"'
+                sh 'docker build -t trade-trends-automation:${BUILD_NUMBER} .'
+            }
+        }
+        stage('Run Automation') {
+            steps {
+                echo 'Running automation...'
+                sh 'docker run --rm --shm-size=2g trade-trends-automation:${BUILD_NUMBER}'
+            }
+        }
+    }
+
+    post {
+        always {
+            echo 'Cleaning up...'
+            sh 'docker rmi trade-trends-automation:${BUILD_NUMBER} || true'
+        }
+        failure {
+            echo 'Automation failed!'
+        }
     }
 }
