@@ -1,91 +1,9 @@
-pipeline {
-    agent any
-    
-    environment {
-        // Docker image name
-        DOCKER_IMAGE = 'trade-trends-automation'
-        DOCKER_TAG = "${BUILD_NUMBER}"
-        
-        // Credentials (configure these in Jenkins Credentials)
-        XFLUSH_USERNAME = credentials('xflush-username')
-        XFLUSH_PASSWORD = credentials('xflush-password')
-        DINGTALK_WEBHOOK = credentials('dingtalk-webhook-url')
-        DINGTALK_SECRET = credentials('dingtalk-webhook-secret')
-    }
-    
-    parameters {
-        choice(
-            name: 'TIME_RANGE',
-            choices: ['default', 'today', 'custom'],
-            description: 'Select time range for the report'
-        )
-        string(
-            name: 'CUSTOM_TIME_RANGE',
-            defaultValue: '',
-            description: 'Custom time range (format: YYYY-MM-DD HH:MM:SS,YYYY-MM-DD HH:MM:SS)'
-        )
-    }
-    
-    stages {
-        stage('Checkout') {
-            steps {
-                echo 'Checking out code...'
-                checkout scm
-            }
-        }
-        
-        stage('Build Docker Image') {
-            steps {
-                echo 'Building Docker image...'
-                script {
-                    docker.build("${DOCKER_IMAGE}:${DOCKER_TAG}")
-                    docker.build("${DOCKER_IMAGE}:latest")
-                }
-            }
-        }
-        
-        stage('Run Automation') {
-            steps {
-                echo 'Running Trade Trends Automation...'
-                script {
-                    def timeRangeArg = ''
-                    
-                    if (params.TIME_RANGE == 'today') {
-                        timeRangeArg = '--time-range today'
-                    } else if (params.TIME_RANGE == 'custom' && params.CUSTOM_TIME_RANGE != '') {
-                        timeRangeArg = "--time-range '${params.CUSTOM_TIME_RANGE}'"
-                    }
-                    
-                    docker.image("${DOCKER_IMAGE}:${DOCKER_TAG}").inside(
-                        '--shm-size=2g ' +
-                        '-v /dev/shm:/dev/shm ' +
-                        '--cap-add=SYS_ADMIN'
-                    ) {
-                        sh """
-                            python run_automation.py ${timeRangeArg}
-                        """
-                    }
-                }
-            }
-        }
-    }
-    
-    post {
-        success {
-            echo 'Automation completed successfully!'
-            // Optional: Archive artifacts
-            archiveArtifacts artifacts: 'tps_data.json', allowEmptyArchive: true
-        }
-        
-        failure {
-            echo 'Automation failed!'
-            // Optional: Send notification
-        }
-        
-        always {
-            echo 'Cleaning up...'
-            // Clean up Docker images if needed
-            sh "docker rmi ${DOCKER_IMAGE}:${DOCKER_TAG} || true"
-        }
+stage('Build Docker Image') {
+    steps {
+        echo 'Building Docker image...'
+        sh 'docker --version'
+        sh 'ls -l'
+        sh 'cat Dockerfile || echo "No Dockerfile found"'
+        sh 'docker build -t trade-trends-automation:${BUILD_NUMBER} .'
     }
 }
