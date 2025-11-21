@@ -62,6 +62,7 @@ pipeline {
                         '--cap-add=SYS_ADMIN'
                     ) {
                         sh """
+                            cd TradeTrendAutomation
                             python3 run_automation.py ${timeRangeArg}
                         """
                     }
