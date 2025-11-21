@@ -15,6 +15,11 @@ pipeline {
     
     parameters {
         choice(
+            name: 'REPORT_TYPE',
+            choices: ['tradetrend', 'danapoly', 'other'],
+            description: 'Select the report type to run'
+        )
+        choice(
             name: 'TIME_RANGE',
             choices: ['default', 'today', 'custom'],
             description: 'Select time range for the report'
@@ -24,6 +29,11 @@ pipeline {
             defaultValue: '',
             description: 'Custom time range (format: YYYY-MM-DD HH:MM:SS,YYYY-MM-DD HH:MM:SS)'
         )
+    }
+    
+    triggers {
+        // Run every day at 8:30 PM (20:30)
+        cron('30 20 * * *')
     }
     
     stages {
@@ -46,7 +56,7 @@ pipeline {
         
         stage('Run Automation') {
             steps {
-                echo 'Running Trade Trends Automation...'
+                echo "Running ${params.REPORT_TYPE} Automation..."
                 script {
                     def timeRangeArg = ''
                     
